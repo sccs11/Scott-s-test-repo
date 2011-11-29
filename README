@@ -1,1 +1,3 @@
-Wooooohooooooooooo!!! This is another bogus line that is different from the first bogus line in the other repo.
+This is a collection of utilities Scott C made while working on the MTA BusTime/OneBusAway project, and perhaps other projects as well.
+
+files_md5 - This is a simple utility to calculate the md5sums of all files in a directory and spit out the results in a JSON format.
