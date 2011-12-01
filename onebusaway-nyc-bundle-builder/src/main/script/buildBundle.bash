@@ -10,6 +10,12 @@ GTFS_STATEN_ISLAND=google_transit_staten_island
 GTFS_BROOKLYN=google_transit_brooklyn
 GTFS_B63=gtfs-b63
 
+STIF_STATEN_ISLAND=staten_island
+STIF_BROOKLYN=brooklyn
+
+STIF_PYTHON_CLEANUP_SCRIPT=fix-stif-date-codes.py
+STIF_PYTHON_CLEANUP_SCRIPT_URL=https://github.com/camsys/onebusaway-nyc/raw/master/onebusaway-nyc-stif-loader/fix-stif-date-codes.py
+
 downloadFile () {
   file=$1
   if [ -z "$file" ] 
@@ -110,10 +116,30 @@ mv $GTFS_BROOKLYN.zip $GTFS_B63.zip
 
 echo "Done modifying the B63 GTFS"
 
+echo
+echo "Now Tweak the STIF files"
+mkdir stif
+
+echo "unzip Brooklyn Stif and copy to stif folder"
+unzip -q ../$STIF_BROOKLYN.zip
+cp -r $STIF_BROOKLYN/* stif/
+rm -rf $STIF_BROOKLYN
+
+echo "unzip Staten Island Stif and copy to stif folder"
+unzip -q ../$STIF_STATEN_ISLAND.zip
+cp -r $STIF_STATEN_ISLAND/* stif/
+rm -rf $STIF_STATEN_ISLAND
+
+echo "Download Python Cleanup script from GitHub"
+downloadFile $STIF_PYTHON_CLEANUP_SCRIPT_URL
+
+echo "now execute python cleanup script."
+python $STIF_PYTHON_CLEANUP_SCRIPT stif || exit 1
+rm $STIF_PYTHON_CLEANUP_SCRIPT
+echo "python cleanup script ran succesfully"
+
 echo 
 echo "Script finished, however I didnt do any of the following:"
-echo "->Combine Staten Island and Brooklyn STIF files."
-echo "->Run python script on combined STIFs"
 echo "->Build bundle"
 echo "->Add BaseLocations.txt"
 echo "->Generate BundleMetadata.json file"
