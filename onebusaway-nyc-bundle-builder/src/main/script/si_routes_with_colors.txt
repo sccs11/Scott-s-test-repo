@@ -1,0 +1,60 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+S40,MTA NYCT,S40,Richmond Terrace,St. George - Goethals Rd North,3,,9A258F,FFFFFF
+S4090,MTA NYCT,S4090,Richmond Terrace,St. George - Goethals Rd North,3,,9A258F,FFFFFF
+S42,MTA NYCT,S42,St. Marks Place / Jersey Street,St. George - Clyde Place,3,,00AEEF,FFFFFF
+S4252,MTA NYCT,S4252,St. Marks Place / Jersey Street,St. George - Clyde Place,3,,00AEEF,FFFFFF
+S44,MTA NYCT,S44,Richmond Avenue,St. George - Staten Island Mall,3,,FAA61A,FFFFFF
+S4494,MTA NYCT,S4494,Richmond Avenue,St. George - Staten Island Mall,3,,FAA61A,FFFFFF
+S46,MTA NYCT,S46,Castleton Avenue,St. George - West Shore Plaza,3,,006CB7,FFFFFF
+S4696,MTA NYCT,S4696,Castleton Avenue,St. George - West Shore Plaza,3,,006CB7,FFFFFF
+S48,MTA NYCT,S48,Forest Avenue,St. George - Mariners Harbor,3,,ED1C24,FFFFFF
+S4898,MTA NYCT,S4898,Forest Avenue,St. George - Mariners Harbor,3,,ED1C24,FFFFFF
+S51,MTA NYCT,S51,Bay Street / Father Capodanno Boulevard,St. George - West Shore Plaza,3,,006CB7,FFFFFF
+S5181,MTA NYCT,S5181,Bay Street / Father Capodanno Boulevard,St. George - West Shore Plaza,3,,006CB7,FFFFFF
+S52,MTA NYCT,S52,Tompkins Avenue / St Marks Place/Jersey Street ,St. George - Staten Island Univ. Hospital,3,,9A258F,FFFFFF
+S53,MTA NYCT,S53,Verrazano-Narrows Bridge / Clove Road,Port Richmond - Bay Ridge,3,,ED1C24,FFFFFF
+S5393,MTA NYCT,S5393,Verrazano-Narrows Bridge / Clove Road,Port Richmond - Bay Ridge,3,,ED1C24,FFFFFF
+S54,MTA NYCT,S54,Manor Road,West New Brighton - Eltingville,3,,FAA61A,FFFFFF
+S55,MTA NYCT,S55,Bloomingdale / Annadale Roads/Richmond Avenue,Rossville - Staten Island Mall,3,,FAA61A,FFFFFF
+S56,MTA NYCT,S56,Richmond Avenue / Arthur Kill/Foster Roads,Huguenot - Staten Island Mall,3,,72BF44,FFFFFF
+S57,MTA NYCT,S57,Rockland / Brielle/Bradley Avenues,Port Richmond - New Dorp,3,,72BF44,FFFFFF
+S59,MTA NYCT,S59,Richmond Avenue,Port Richmond - Tottenville,3,,ED1C24,FFFFFF
+S61,MTA NYCT,S61,Victory Boulevard / Bradley Avenue,St. George - Staten Island Mall,3,,ED1C24,FFFFFF
+S6191,MTA NYCT,S6191,Victory Boulevard / Bradley Avenue,St. George - Staten Island Mall,3,,ED1C24,FFFFFF
+S62,MTA NYCT,S62,Victory Boulevard,St. George - Travis,3,,9A258F,FFFFFF
+S66,MTA NYCT,S66,Victory Boulevard / Jewett Avenue,St. George - Port Richmond,3,,72BF44,FFFFFF
+S74,MTA NYCT,S74,Richmond / Arthur Kill Roads,St. George - Bricktown Mall,3,,ED1C24,FFFFFF
+S76,MTA NYCT,S76,Richmond Road / New Dorp Lane,St. George - Oakwood,3,,9A258F,FFFFFF
+S78,MTA NYCT,S78,Hylan Boulevard,St. George - Bricktown Mall,3,,FAA61A,FFFFFF
+S79,MTA NYCT,S79,Verrazano-Narrows Bridge / Hylan Boulevard,Staten Island Mall - Bay Ridge,3,,9A258F,FFFFFF
+S81,MTA NYCT,S81,S51 Limited-Stop Service,St. George - Grant City,3,,006CB7,FFFFFF
+S84,MTA NYCT,S84,S74 Limited-Stop Service,St. George - Bricktown Mall,3,,ED1C24,FFFFFF
+S86,MTA NYCT,S86,S76 Limited-Stop Service,St. George - Oakwood,3,,9A258F,FFFFFF
+S89,MTA NYCT,S89,S59 Limited-Stop Service,Eltingville - Bayonne,3,,ED1C24,FFFFFF
+S90,MTA NYCT,S90,S40 Limited-Stop Service,St. George - Goethals Rd North,3,,9A258F,FFFFFF
+S91,MTA NYCT,S91,S61 Limited-Stop Service,St. George - Staten Island Mall,3,,ED1C24,FFFFFF
+S92,MTA NYCT,S92,S62 Limited-Stop Service,St. George - Travis,3,,9A258F,FFFFFF
+S93,MTA NYCT,S93,Verrazano-Narrows Bridge / Victory Boulevard,College of S.I. - Bay Ridge,3,,ED1C24,FFFFFF
+S94,MTA NYCT,S94,S44 Limited-Stop Service,St. George - Staten Island Mall,3,,FAA61A,FFFFFF
+S96,MTA NYCT,S96,S46 Limited-Stop Service,St. George - West Shore Plaza,3,,006CB7,FFFFFF
+S98,MTA NYCT,S98,S48 Limited-Stop Service,St. George - Mariners Harbor,3,,ED1C24,FFFFFF
+X1,MTA NYCT,X1,Hylan Boulevard / Richmond Avenue,S.I. - Manhattan Express via Hylan Blvd / Richmond Av,3,,00A651,FFFFFF
+X10,MTA NYCT,X10,Richmond / Gannon Avenues,S.I. - Manhattan Express via RIchmond / Gannon Av,3,,00A651,FFFFFF
+X11,MTA NYCT,X11,Victory Boulevard / Gannon Avenue,S.I. - Manhattan Express via Victory Blvd / Gannon Av,3,,00A651,FFFFFF
+X12,MTA NYCT,X12,Watchogue Road / Forest/South Avenues,S.I. - Manhattan Express via Watchogue Rd / Forest / South Aves,3,,00A651,FFFFFF
+X14,MTA NYCT,X14,Port Richmond / Forest Avenues/Clove Road,S.I. - Manhattan Express via Port Richmond / Forest Aves / Clove Rd,3,,00A651,FFFFFF
+X15,MTA NYCT,X15,Richmond / Arthur Kill Roads,S.I. - Manhattan Express via Richmond / Arthur Kill Rds,3,,00A651,FFFFFF
+X17,MTA NYCT,X17,Richmond / Huguenot/Arden Avenues,S.I. - Manhattan Express via Richmond / Huguenot / Arden Aves,3,,00A651,FFFFFF
+X19,MTA NYCT,X19,Huguenot / Arden Avenues,S.I. - Manhattan Express via Huguenot / Arden Aves,3,,00A651,FFFFFF
+X2,MTA NYCT,X2,Hylan Boulevard,S.I. - Manhattan Express via Hylan Blvd,3,,00A651,FFFFFF
+X22,MTA NYCT,X22,Bloomingdale / Amboy Roads,S.I. - Manhattan Express via Bloomingdale / Amboy Rds,3,,00A651,FFFFFF
+X3,MTA NYCT,X3,Hylan Boulevard,S.I. - Manhattan Express via Hylan Blvd,3,,00A651,FFFFFF
+X30,MTA NYCT,X30,Forest Avenue / Victory Boulevard,S.I. - Manhattan Express via Forest Av / Victory Blvd,3,,00A651,FFFFFF
+X31,MTA NYCT,X31,Travis Avenue / Forest Hill Road,S.I. - Manhattan Express via Travis Av / Forest Hill Rd,3,,00A651,FFFFFF
+X4,MTA NYCT,X4,Richmond Avenue / Hylan Boulevard,S.I. - Manhattan Express via Richmond Av / Hylan Blvd,3,,00A651,FFFFFF
+X42,MTA NYCT,X42,Watchogue Road / Forest/South Avenues,S.I. - Manhattan Express via Watchogue Rd / Forest / South Aves,3,,00A651,FFFFFF
+X5,MTA NYCT,X5,Richmond Avenue / Hylan Boulevard,S.I. - Manhattan Express via Richmond Av / Hylan Blvd,3,,00A651,FFFFFF
+X7,MTA NYCT,X7,Giffords Lane / Nelson Avenue/Hylan Boulevard,S.I. - Manhattan Express via Giffords Ln / Nelson Av / Hylan Blvd,3,,00A651,FFFFFF
+X8,MTA NYCT,X8,Giffords Lane / Nelson Avenue/Hylan Boulevard,S.I. - Manhattan Express via Giffords Ln / Nelson Av / Hylan Blvd,3,,00A651,FFFFFF
+X9,MTA NYCT,X9,Hylan Boulevard,S.I. - Manhattan Express via Hylan Blvd,3,,00A651,FFFFFF
+B63,MTA NYCT,B63,5th / Atlantic Avenues,Bay Ridge - Cobble Hill,3,,006CB7,FFFFFF
