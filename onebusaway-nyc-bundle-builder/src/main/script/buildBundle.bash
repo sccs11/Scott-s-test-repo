@@ -44,6 +44,9 @@ zipUpGtfs () {
 echo "Starting Bundle Builder script."
 
 echo "Cleaning up previous run data"
+rm -rf $BUNDLE_DATA_DIR/stif
+rm -rf $BUNDLE_DATA_DIR/$STIF_STATEN_ISLAND
+rm -rf $BUNDLE_DATA_DIR/$STIF_BROOKLYN
 rm -v $BUNDLE_DATA_DIR/*
 rmdir $BUNDLE_DATA_DIR
 
@@ -82,7 +85,7 @@ cd $GTFS_STATEN_ISLAND
 
 unzip -LL -q ../../$GTFS_STATEN_ISLAND.zip.original_from_mta
 
-mv routes.txt ../routes_si_from_original_gtfs.txt
+#mv routes.txt ../routes_si_from_original_gtfs.txt
 cp ../../$SI_ROUTESTXT_WITH_COLORS_FILENAME routes.txt
 
 echo "zip up new Staten Island GTFS"
@@ -103,7 +106,7 @@ java -Xmx2G -jar ../lib/onebusaway-gtfs-transformer-cli-1.2.5.jar --transform=..
 echo 
 echo "Update the routes file in brooklyn->b63 GTFS"
 cd $GTFS_BROOKLYN 
-mv routes.txt ../routes_b63_from_original_reduced_gtfs.txt
+#mv routes.txt ../routes_b63_from_original_reduced_gtfs.txt
 cp ../../$B63_ROUTESTXT_WITH_COLORS_FILENAME routes.txt
 cd ..
 
